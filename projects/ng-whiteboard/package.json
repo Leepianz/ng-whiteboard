@@ -1,17 +1,14 @@
 {
-  "name": "ng-whiteboard",
-  "version": "0.0.0-semantically-released",
-  "author": {
-    "name": "Mostafa Zaki",
-    "email": "mostafazke@gmail.com"
-  },
+  "name": "tutosh-whiteboard",
+  "version": "0.0.1",
+  "author": "Tutosh <sabah@tutosh.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mostafazke/ng-whiteboard"
+    "url": "git+https://github.com/mostafazke/ng-whiteboard.git"
   },
   "description": "Angular whiteboard component",
   "keywords": [
@@ -32,5 +29,9 @@
     "@angular/core": "^14.0.0",
     "d3": "^5.16.0",
     "@types/d3": "^5.16.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

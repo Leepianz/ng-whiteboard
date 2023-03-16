@@ -1,6 +1,6 @@
 {
-  "name": "ng-whiteboard",
-  "version": "0.0.0-semantically-released",
+  "name": "@tutosh-cto/ng-whiteboard",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
@@ -26,7 +26,6 @@
     "cm": "cz",
     "prepare": "husky install"
   },
-  "private": "false",
   "dependencies": {
     "@angular/animations": "~14.2.8",
     "@angular/common": "~14.2.8",
@@ -107,7 +106,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mostafazke/ng-whiteboard.git"
+    "url": "git+https://github.com/mostafazke/ng-whiteboard.git"
   },
   "config": {
     "commitizen": {
@@ -130,5 +129,15 @@
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
-  }
+  },
+  "description": "<p align=\"center\">\r   <img height=\"256px\" width=\"256px\" style=\"text-align: center;\" src=\"https://cdn.jsdelivr.net/gh/mostafazke/ng-whiteboard@development/projects/demo/src/assets/icons/icon-512x512.png\">\r </p>",
+  "bugs": {
+    "url": "https://github.com/mostafazke/ng-whiteboard/issues"
+  },
+  "homepage": "https://github.com/mostafazke/ng-whiteboard#readme",
+  "main": "changelog.config.js",
+  "keywords": [
+    "whiteboard"
+  ],
+  "author": "ASANIAN"
 }

@@ -564,8 +564,6 @@ export class NgWhiteboardComponent implements OnInit, OnChanges, AfterViewInit, 
     if (this.tempElement.value) {
       this._pushToData(this.tempElement);
       this._pushToUndo();
-       // eslint-disable-next-line no-debugger
-       debugger;
     }
     this.tempElement = null as never;
   }
